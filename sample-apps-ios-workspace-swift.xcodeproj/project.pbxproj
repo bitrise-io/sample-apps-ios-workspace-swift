@@ -3,10 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11D85E1EFE52E56A3ACE5481 /* Pods_sample_apps_ios_workspace_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6701A8E48A890C2B1F3169D2 /* Pods_sample_apps_ios_workspace_swift.framework */; };
+		1B02E9D621199A0500F7BFD8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B02E9D421199A0500F7BFD8 /* Interface.storyboard */; };
+		1B02E9D821199A0600F7BFD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B02E9D721199A0600F7BFD8 /* Assets.xcassets */; };
+		1B02E9DF21199A0600F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1B02E9DE21199A0600F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1B02E9E421199A0600F7BFD8 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B02E9E321199A0600F7BFD8 /* InterfaceController.swift */; };
+		1B02E9E621199A0600F7BFD8 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B02E9E521199A0600F7BFD8 /* ExtensionDelegate.swift */; };
+		1B02E9E821199A0600F7BFD8 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B02E9E721199A0600F7BFD8 /* NotificationController.swift */; };
+		1B02E9EA21199A0700F7BFD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B02E9E921199A0700F7BFD8 /* Assets.xcassets */; };
+		1B02E9EF21199A0700F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1B02E9D221199A0500F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch.app */; };
 		1B0456FF2119927A002CCBC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0456FE2119927A002CCBC5 /* AppDelegate.swift */; };
 		1B0457012119927A002CCBC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0457002119927A002CCBC5 /* ViewController.swift */; };
 		1B0457042119927A002CCBC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B0457022119927A002CCBC5 /* Main.storyboard */; };
@@ -14,12 +23,25 @@
 		1B0457092119927C002CCBC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B0457072119927C002CCBC5 /* LaunchScreen.storyboard */; };
 		1B0457142119927C002CCBC5 /* Sample_Apps_IOS_Workspace_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0457132119927C002CCBC5 /* Sample_Apps_IOS_Workspace_SwiftTests.swift */; };
 		1B04571F2119927C002CCBC5 /* Sample_Apps_IOS_Workspace_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B04571E2119927C002CCBC5 /* Sample_Apps_IOS_Workspace_SwiftUITests.swift */; };
-		304C97CAFA36FE91B913F9C4 /* Pods_sample_apps_ios_workspace_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55414D6C27D09590F09F33D /* Pods_sample_apps_ios_workspace_swiftTests.framework */; };
-		969A416974E3290824E196E6 /* Pods_sample_apps_ios_workspace_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7170768C3AB95A0FD734DC20 /* Pods_sample_apps_ios_workspace_swift.framework */; };
-		A4CA0D7F93626F4595DB402D /* Pods_sample_apps_ios_workspace_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 273C66B43060F1FB530CC84A /* Pods_sample_apps_ios_workspace_swiftUITests.framework */; };
+		2B1E00D8D48CADB5B74D557A /* Pods_sample_apps_ios_workspace_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D37DF8AB333B58E4F32CCD /* Pods_sample_apps_ios_workspace_swiftTests.framework */; };
+		C6AFEB34C2DC607B6AE65B53 /* Pods_sample_apps_ios_workspace_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E42E1A7EB2301978D0320B /* Pods_sample_apps_ios_workspace_swiftUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1B02E9E021199A0600F7BFD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B0456F32119927A002CCBC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B02E9DD21199A0600F7BFD8;
+			remoteInfo = "bitfall.sample-apps-ios-workspace-swift-watch Extension";
+		};
+		1B02E9ED21199A0700F7BFD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B0456F32119927A002CCBC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B02E9D121199A0500F7BFD8;
+			remoteInfo = "bitfall.sample-apps-ios-workspace-swift-watch";
+		};
 		1B0457102119927C002CCBC5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1B0456F32119927A002CCBC5 /* Project object */;
@@ -36,7 +58,43 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1B02E9F521199A0700F7BFD8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1B02E9DF21199A0600F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B02E9F721199A0700F7BFD8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1B02E9EF21199A0700F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1B02E9D221199A0500F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bitfall.sample-apps-ios-workspace-swift-watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B02E9D521199A0500F7BFD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1B02E9D721199A0600F7BFD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B02E9D921199A0600F7BFD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B02E9DE21199A0600F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "bitfall.sample-apps-ios-workspace-swift-watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B02E9E321199A0600F7BFD8 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1B02E9E521199A0600F7BFD8 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1B02E9E721199A0600F7BFD8 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1B02E9E921199A0700F7BFD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B02E9EB21199A0700F7BFD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B02E9EC21199A0700F7BFD8 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		1B0456FB2119927A002CCBC5 /* sample-apps-ios-workspace-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sample-apps-ios-workspace-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B0456FE2119927A002CCBC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B0457002119927A002CCBC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,23 +108,30 @@
 		1B04571A2119927C002CCBC5 /* sample-apps-ios-workspace-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sample-apps-ios-workspace-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B04571E2119927C002CCBC5 /* Sample_Apps_IOS_Workspace_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sample_Apps_IOS_Workspace_SwiftUITests.swift; sourceTree = "<group>"; };
 		1B0457202119927C002CCBC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22A1510EE53805271D786D9B /* Pods-sample-apps-ios-workspace-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-apps-ios-workspace-swiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-sample-apps-ios-workspace-swiftUITests/Pods-sample-apps-ios-workspace-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		273C66B43060F1FB530CC84A /* Pods_sample_apps_ios_workspace_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sample_apps_ios_workspace_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4764D65B13B7990C4CF8E06C /* Pods-sample-apps-ios-workspace-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-apps-ios-workspace-swiftUITests.release.xcconfig"; path = "Target Support Files/Pods-sample-apps-ios-workspace-swiftUITests/Pods-sample-apps-ios-workspace-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
-		7170768C3AB95A0FD734DC20 /* Pods_sample_apps_ios_workspace_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sample_apps_ios_workspace_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A28F7821AC57848DC00E4D6A /* Pods-sample-apps-ios-workspace-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-apps-ios-workspace-swift.debug.xcconfig"; path = "Target Support Files/Pods-sample-apps-ios-workspace-swift/Pods-sample-apps-ios-workspace-swift.debug.xcconfig"; sourceTree = "<group>"; };
-		D693DCB4C4F9B64543501C0C /* Pods-sample-apps-ios-workspace-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-apps-ios-workspace-swift.release.xcconfig"; path = "Target Support Files/Pods-sample-apps-ios-workspace-swift/Pods-sample-apps-ios-workspace-swift.release.xcconfig"; sourceTree = "<group>"; };
-		E1D855CEDA3B141925FA1BDB /* Pods-sample-apps-ios-workspace-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-apps-ios-workspace-swiftTests.debug.xcconfig"; path = "Target Support Files/Pods-sample-apps-ios-workspace-swiftTests/Pods-sample-apps-ios-workspace-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E55414D6C27D09590F09F33D /* Pods_sample_apps_ios_workspace_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sample_apps_ios_workspace_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB95F459BA44B6496DF0D737 /* Pods-sample-apps-ios-workspace-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-apps-ios-workspace-swiftTests.release.xcconfig"; path = "Target Support Files/Pods-sample-apps-ios-workspace-swiftTests/Pods-sample-apps-ios-workspace-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D2A58CF2B4FE79984BA40DB /* Pods-sample-apps-ios-workspace-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-apps-ios-workspace-swiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sample-apps-ios-workspace-swiftUITests/Pods-sample-apps-ios-workspace-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		45E42E1A7EB2301978D0320B /* Pods_sample_apps_ios_workspace_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sample_apps_ios_workspace_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58EF15CC9CD8CE121873CF7A /* Pods-sample-apps-ios-workspace-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-apps-ios-workspace-swiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sample-apps-ios-workspace-swiftUITests/Pods-sample-apps-ios-workspace-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6701A8E48A890C2B1F3169D2 /* Pods_sample_apps_ios_workspace_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sample_apps_ios_workspace_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EAA2DAB9A78C7689C42A37 /* Pods-sample-apps-ios-workspace-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-apps-ios-workspace-swiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sample-apps-ios-workspace-swiftTests/Pods-sample-apps-ios-workspace-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A202F5BBC83556BFFD59CD34 /* Pods-sample-apps-ios-workspace-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-apps-ios-workspace-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-sample-apps-ios-workspace-swift/Pods-sample-apps-ios-workspace-swift.release.xcconfig"; sourceTree = "<group>"; };
+		AC4F6AC742508F2BDEEBA986 /* Pods-sample-apps-ios-workspace-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-apps-ios-workspace-swiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sample-apps-ios-workspace-swiftTests/Pods-sample-apps-ios-workspace-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		AEC638BB404077FF6A0535E2 /* Pods-sample-apps-ios-workspace-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sample-apps-ios-workspace-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sample-apps-ios-workspace-swift/Pods-sample-apps-ios-workspace-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		D8D37DF8AB333B58E4F32CCD /* Pods_sample_apps_ios_workspace_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_sample_apps_ios_workspace_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1B02E9DB21199A0600F7BFD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1B0456F82119927A002CCBC5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				969A416974E3290824E196E6 /* Pods_sample_apps_ios_workspace_swift.framework in Frameworks */,
+				11D85E1EFE52E56A3ACE5481 /* Pods_sample_apps_ios_workspace_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +139,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				304C97CAFA36FE91B913F9C4 /* Pods_sample_apps_ios_workspace_swiftTests.framework in Frameworks */,
+				2B1E00D8D48CADB5B74D557A /* Pods_sample_apps_ios_workspace_swiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,22 +147,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4CA0D7F93626F4595DB402D /* Pods_sample_apps_ios_workspace_swiftUITests.framework in Frameworks */,
+				C6AFEB34C2DC607B6AE65B53 /* Pods_sample_apps_ios_workspace_swiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B02E9D321199A0500F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch */ = {
+			isa = PBXGroup;
+			children = (
+				1B02E9D421199A0500F7BFD8 /* Interface.storyboard */,
+				1B02E9D721199A0600F7BFD8 /* Assets.xcassets */,
+				1B02E9D921199A0600F7BFD8 /* Info.plist */,
+			);
+			path = "bitfall.sample-apps-ios-workspace-swift-watch";
+			sourceTree = "<group>";
+		};
+		1B02E9E221199A0600F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1B02E9E321199A0600F7BFD8 /* InterfaceController.swift */,
+				1B02E9E521199A0600F7BFD8 /* ExtensionDelegate.swift */,
+				1B02E9E721199A0600F7BFD8 /* NotificationController.swift */,
+				1B02E9E921199A0700F7BFD8 /* Assets.xcassets */,
+				1B02E9EB21199A0700F7BFD8 /* Info.plist */,
+				1B02E9EC21199A0700F7BFD8 /* PushNotificationPayload.apns */,
+			);
+			path = "bitfall.sample-apps-ios-workspace-swift-watch Extension";
+			sourceTree = "<group>";
+		};
 		1B0456F22119927A002CCBC5 = {
 			isa = PBXGroup;
 			children = (
 				1B0456FD2119927A002CCBC5 /* Sample Apps IOS Workspace Swift */,
 				1B0457122119927C002CCBC5 /* Sample Apps IOS Workspace SwiftTests */,
 				1B04571D2119927C002CCBC5 /* Sample Apps IOS Workspace SwiftUITests */,
+				1B02E9D321199A0500F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch */,
+				1B02E9E221199A0600F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch Extension */,
 				1B0456FC2119927A002CCBC5 /* Products */,
-				C52C5C3FEB2219DE1382595D /* Pods */,
-				6CC8223AC7CB863C78EA3615 /* Frameworks */,
+				AEAC45A54B8F2A877685F86A /* Pods */,
+				3B2CE1F81F79F2773A9EF28F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +197,8 @@
 				1B0456FB2119927A002CCBC5 /* sample-apps-ios-workspace-swift.app */,
 				1B04570F2119927C002CCBC5 /* sample-apps-ios-workspace-swiftTests.xctest */,
 				1B04571A2119927C002CCBC5 /* sample-apps-ios-workspace-swiftUITests.xctest */,
+				1B02E9D221199A0500F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch.app */,
+				1B02E9DE21199A0600F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,45 +234,81 @@
 			path = "Sample Apps IOS Workspace SwiftUITests";
 			sourceTree = "<group>";
 		};
-		6CC8223AC7CB863C78EA3615 /* Frameworks */ = {
+		3B2CE1F81F79F2773A9EF28F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7170768C3AB95A0FD734DC20 /* Pods_sample_apps_ios_workspace_swift.framework */,
-				E55414D6C27D09590F09F33D /* Pods_sample_apps_ios_workspace_swiftTests.framework */,
-				273C66B43060F1FB530CC84A /* Pods_sample_apps_ios_workspace_swiftUITests.framework */,
+				6701A8E48A890C2B1F3169D2 /* Pods_sample_apps_ios_workspace_swift.framework */,
+				D8D37DF8AB333B58E4F32CCD /* Pods_sample_apps_ios_workspace_swiftTests.framework */,
+				45E42E1A7EB2301978D0320B /* Pods_sample_apps_ios_workspace_swiftUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C52C5C3FEB2219DE1382595D /* Pods */ = {
+		AEAC45A54B8F2A877685F86A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A28F7821AC57848DC00E4D6A /* Pods-sample-apps-ios-workspace-swift.debug.xcconfig */,
-				D693DCB4C4F9B64543501C0C /* Pods-sample-apps-ios-workspace-swift.release.xcconfig */,
-				E1D855CEDA3B141925FA1BDB /* Pods-sample-apps-ios-workspace-swiftTests.debug.xcconfig */,
-				FB95F459BA44B6496DF0D737 /* Pods-sample-apps-ios-workspace-swiftTests.release.xcconfig */,
-				22A1510EE53805271D786D9B /* Pods-sample-apps-ios-workspace-swiftUITests.debug.xcconfig */,
-				4764D65B13B7990C4CF8E06C /* Pods-sample-apps-ios-workspace-swiftUITests.release.xcconfig */,
+				AEC638BB404077FF6A0535E2 /* Pods-sample-apps-ios-workspace-swift.debug.xcconfig */,
+				A202F5BBC83556BFFD59CD34 /* Pods-sample-apps-ios-workspace-swift.release.xcconfig */,
+				95EAA2DAB9A78C7689C42A37 /* Pods-sample-apps-ios-workspace-swiftTests.debug.xcconfig */,
+				AC4F6AC742508F2BDEEBA986 /* Pods-sample-apps-ios-workspace-swiftTests.release.xcconfig */,
+				1D2A58CF2B4FE79984BA40DB /* Pods-sample-apps-ios-workspace-swiftUITests.debug.xcconfig */,
+				58EF15CC9CD8CE121873CF7A /* Pods-sample-apps-ios-workspace-swiftUITests.release.xcconfig */,
 			);
-			path = Pods;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1B0456FA2119927A002CCBC5 /* sample-apps-ios-workspace-swift */ = {
+		1B02E9D121199A0500F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B0457232119927C002CCBC5 /* Build configuration list for PBXNativeTarget "sample-apps-ios-workspace-swift" */;
+			buildConfigurationList = 1B02E9F621199A0700F7BFD8 /* Build configuration list for PBXNativeTarget "bitfall.sample-apps-ios-workspace-swift-watch" */;
 			buildPhases = (
-				0A3AF7B1EACAFEDA3A4F3DED /* [CP] Check Pods Manifest.lock */,
-				1B0456F72119927A002CCBC5 /* Sources */,
-				1B0456F82119927A002CCBC5 /* Frameworks */,
-				1B0456F92119927A002CCBC5 /* Resources */,
-				5EB86992964A72F74F4E8925 /* [CP] Embed Pods Frameworks */,
+				1B02E9D021199A0500F7BFD8 /* Resources */,
+				1B02E9F521199A0700F7BFD8 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1B02E9E121199A0600F7BFD8 /* PBXTargetDependency */,
+			);
+			name = "bitfall.sample-apps-ios-workspace-swift-watch";
+			productName = "bitfall.sample-apps-ios-workspace-swift-watch";
+			productReference = 1B02E9D221199A0500F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1B02E9DD21199A0600F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B02E9F421199A0700F7BFD8 /* Build configuration list for PBXNativeTarget "bitfall.sample-apps-ios-workspace-swift-watch Extension" */;
+			buildPhases = (
+				1B02E9DA21199A0600F7BFD8 /* Sources */,
+				1B02E9DB21199A0600F7BFD8 /* Frameworks */,
+				1B02E9DC21199A0600F7BFD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bitfall.sample-apps-ios-workspace-swift-watch Extension";
+			productName = "bitfall.sample-apps-ios-workspace-swift-watch Extension";
+			productReference = 1B02E9DE21199A0600F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		1B0456FA2119927A002CCBC5 /* sample-apps-ios-workspace-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B0457232119927C002CCBC5 /* Build configuration list for PBXNativeTarget "sample-apps-ios-workspace-swift" */;
+			buildPhases = (
+				89D3BC586CC213B5BFE801C0 /* [CP] Check Pods Manifest.lock */,
+				1B0456F72119927A002CCBC5 /* Sources */,
+				1B0456F82119927A002CCBC5 /* Frameworks */,
+				1B0456F92119927A002CCBC5 /* Resources */,
+				075E1AC888F1B6E6F2EB74BD /* [CP] Embed Pods Frameworks */,
+				1B02E9F721199A0700F7BFD8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B02E9EE21199A0700F7BFD8 /* PBXTargetDependency */,
 			);
 			name = "sample-apps-ios-workspace-swift";
 			productName = "Sample Apps IOS Workspace Swift";
@@ -191,11 +319,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B0457262119927C002CCBC5 /* Build configuration list for PBXNativeTarget "sample-apps-ios-workspace-swiftTests" */;
 			buildPhases = (
-				6CB815D8E2C53A08A9257AD0 /* [CP] Check Pods Manifest.lock */,
+				F7B261E7FCA08EC066772FB2 /* [CP] Check Pods Manifest.lock */,
 				1B04570B2119927C002CCBC5 /* Sources */,
 				1B04570C2119927C002CCBC5 /* Frameworks */,
 				1B04570D2119927C002CCBC5 /* Resources */,
-				64793EA180DEC6281D1673F9 /* [CP] Embed Pods Frameworks */,
+				8D5D35AF8306B70BD68FC30D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -211,11 +339,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B0457292119927C002CCBC5 /* Build configuration list for PBXNativeTarget "sample-apps-ios-workspace-swiftUITests" */;
 			buildPhases = (
-				E2AB0F3A662586D1C903E0FB /* [CP] Check Pods Manifest.lock */,
+				6ACBB7FF46976882E929588D /* [CP] Check Pods Manifest.lock */,
 				1B0457162119927C002CCBC5 /* Sources */,
 				1B0457172119927C002CCBC5 /* Frameworks */,
 				1B0457182119927C002CCBC5 /* Resources */,
-				79109B7497376F5634C35B1B /* [CP] Embed Pods Frameworks */,
+				8E11B1B9219ECE9192EFB19C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,6 +365,12 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Bitfall;
 				TargetAttributes = {
+					1B02E9D121199A0500F7BFD8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					1B02E9DD21199A0600F7BFD8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					1B0456FA2119927A002CCBC5 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -266,11 +400,30 @@
 				1B0456FA2119927A002CCBC5 /* sample-apps-ios-workspace-swift */,
 				1B04570E2119927C002CCBC5 /* sample-apps-ios-workspace-swiftTests */,
 				1B0457192119927C002CCBC5 /* sample-apps-ios-workspace-swiftUITests */,
+				1B02E9D121199A0500F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch */,
+				1B02E9DD21199A0600F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1B02E9D021199A0500F7BFD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B02E9D821199A0600F7BFD8 /* Assets.xcassets in Resources */,
+				1B02E9D621199A0500F7BFD8 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B02E9DC21199A0600F7BFD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B02E9EA21199A0700F7BFD8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1B0456F92119927A002CCBC5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -298,20 +451,52 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0A3AF7B1EACAFEDA3A4F3DED /* [CP] Check Pods Manifest.lock */ = {
+		075E1AC888F1B6E6F2EB74BD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sample-apps-ios-workspace-swift/Pods-sample-apps-ios-workspace-swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sample-apps-ios-workspace-swift/Pods-sample-apps-ios-workspace-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ACBB7FF46976882E929588D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-sample-apps-ios-workspace-swiftUITests-checkManifestLockResult.txt",
 			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89D3BC586CC213B5BFE801C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-sample-apps-ios-workspace-swift-checkManifestLockResult.txt",
 			);
@@ -320,95 +505,54 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5EB86992964A72F74F4E8925 /* [CP] Embed Pods Frameworks */ = {
+		8D5D35AF8306B70BD68FC30D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sample-apps-ios-workspace-swift/Pods-sample-apps-ios-workspace-swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sample-apps-ios-workspace-swiftTests/Pods-sample-apps-ios-workspace-swiftTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sample-apps-ios-workspace-swift/Pods-sample-apps-ios-workspace-swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sample-apps-ios-workspace-swift/Pods-sample-apps-ios-workspace-swift-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sample-apps-ios-workspace-swiftTests/Pods-sample-apps-ios-workspace-swiftTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		64793EA180DEC6281D1673F9 /* [CP] Embed Pods Frameworks */ = {
+		8E11B1B9219ECE9192EFB19C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sample-apps-ios-workspace-swiftTests/Pods-sample-apps-ios-workspace-swiftTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-sample-apps-ios-workspace-swiftUITests/Pods-sample-apps-ios-workspace-swiftUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sample-apps-ios-workspace-swiftTests/Pods-sample-apps-ios-workspace-swiftTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sample-apps-ios-workspace-swiftTests/Pods-sample-apps-ios-workspace-swiftTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sample-apps-ios-workspace-swiftUITests/Pods-sample-apps-ios-workspace-swiftUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6CB815D8E2C53A08A9257AD0 /* [CP] Check Pods Manifest.lock */ = {
+		F7B261E7FCA08EC066772FB2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-sample-apps-ios-workspace-swiftTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		79109B7497376F5634C35B1B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sample-apps-ios-workspace-swiftUITests/Pods-sample-apps-ios-workspace-swiftUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-sample-apps-ios-workspace-swiftUITests/Pods-sample-apps-ios-workspace-swiftUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-sample-apps-ios-workspace-swiftUITests/Pods-sample-apps-ios-workspace-swiftUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E2AB0F3A662586D1C903E0FB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-sample-apps-ios-workspace-swiftUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -418,6 +562,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1B02E9DA21199A0600F7BFD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B02E9E821199A0600F7BFD8 /* NotificationController.swift in Sources */,
+				1B02E9E621199A0600F7BFD8 /* ExtensionDelegate.swift in Sources */,
+				1B02E9E421199A0600F7BFD8 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1B0456F72119927A002CCBC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -446,6 +600,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1B02E9E121199A0600F7BFD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B02E9DD21199A0600F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch Extension */;
+			targetProxy = 1B02E9E021199A0600F7BFD8 /* PBXContainerItemProxy */;
+		};
+		1B02E9EE21199A0700F7BFD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B02E9D121199A0500F7BFD8 /* bitfall.sample-apps-ios-workspace-swift-watch */;
+			targetProxy = 1B02E9ED21199A0700F7BFD8 /* PBXContainerItemProxy */;
+		};
 		1B0457112119927C002CCBC5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1B0456FA2119927A002CCBC5 /* sample-apps-ios-workspace-swift */;
@@ -459,6 +623,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		1B02E9D421199A0500F7BFD8 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B02E9D521199A0500F7BFD8 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		1B0457022119927A002CCBC5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -478,6 +650,94 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1B02E9F021199A0700F7BFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bitrise Bot (VV2J4SV8V4)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				IBSC_MODULE = bitfall_sample_apps_ios_workspace_swift_watch_Extension;
+				INFOPLIST_FILE = "bitfall.sample-apps-ios-workspace-swift-watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "bitfall.sample-apps-ios-workspace-swift.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "df3ffa02-44e3-4b50-bd8f-f5a7ba018077";
+				PROVISIONING_PROFILE_SPECIFIER = "Sample Apps IOS Workspace Swift Watch_dev";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		1B02E9F121199A0700F7BFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: BITFALL FEJLESZTO KORLATOLT FELELOSSEGU TARSASAG (72SA8V3WYL)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				IBSC_MODULE = bitfall_sample_apps_ios_workspace_swift_watch_Extension;
+				INFOPLIST_FILE = "bitfall.sample-apps-ios-workspace-swift-watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "bitfall.sample-apps-ios-workspace-swift.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "66f82bb6-cee3-460d-a668-d9d9c9da2464";
+				PROVISIONING_PROFILE_SPECIFIER = "Sample Apps IOS Workspace Swift Watch_app_store";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		1B02E9F221199A0700F7BFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				INFOPLIST_FILE = "bitfall.sample-apps-ios-workspace-swift-watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bitfall.sample-apps-ios-workspace-swift.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		1B02E9F321199A0700F7BFD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				INFOPLIST_FILE = "bitfall.sample-apps-ios-workspace-swift-watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "bitfall.sample-apps-ios-workspace-swift.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
 		1B0457212119927C002CCBC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -529,7 +789,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -583,7 +843,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -594,14 +854,13 @@
 		};
 		1B0457242119927C002CCBC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A28F7821AC57848DC00E4D6A /* Pods-sample-apps-ios-workspace-swift.debug.xcconfig */;
+			baseConfigurationReference = AEC638BB404077FF6A0535E2 /* Pods-sample-apps-ios-workspace-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bitrise Bot (VV2J4SV8V4)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "Sample Apps IOS Workspace Swift/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -609,7 +868,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "bitfall.sample-apps-ios-workspace-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "c77b8382-5080-4761-9909-635c35384def";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Sample Apps IOS Workspace Swift_dev";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -617,14 +876,13 @@
 		};
 		1B0457252119927C002CCBC5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D693DCB4C4F9B64543501C0C /* Pods-sample-apps-ios-workspace-swift.release.xcconfig */;
+			baseConfigurationReference = A202F5BBC83556BFFD59CD34 /* Pods-sample-apps-ios-workspace-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: BITFALL FEJLESZTO KORLATOLT FELELOSSEGU TARSASAG (72SA8V3WYL)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "Sample Apps IOS Workspace Swift/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -632,7 +890,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "bitfall.sample-apps-ios-workspace-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "81d87b2c-2ef9-4e5d-8a2e-224769af0375";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Sample Apps IOS Workspace Swift_app_store";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -640,14 +898,13 @@
 		};
 		1B0457272119927C002CCBC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1D855CEDA3B141925FA1BDB /* Pods-sample-apps-ios-workspace-swiftTests.debug.xcconfig */;
+			baseConfigurationReference = 95EAA2DAB9A78C7689C42A37 /* Pods-sample-apps-ios-workspace-swiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "Sample Apps IOS Workspace SwiftTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -663,14 +920,13 @@
 		};
 		1B0457282119927C002CCBC5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB95F459BA44B6496DF0D737 /* Pods-sample-apps-ios-workspace-swiftTests.release.xcconfig */;
+			baseConfigurationReference = AC4F6AC742508F2BDEEBA986 /* Pods-sample-apps-ios-workspace-swiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "Sample Apps IOS Workspace SwiftTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -686,13 +942,12 @@
 		};
 		1B04572A2119927C002CCBC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22A1510EE53805271D786D9B /* Pods-sample-apps-ios-workspace-swiftUITests.debug.xcconfig */;
+			baseConfigurationReference = 1D2A58CF2B4FE79984BA40DB /* Pods-sample-apps-ios-workspace-swiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "Sample Apps IOS Workspace SwiftUITests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -708,13 +963,12 @@
 		};
 		1B04572B2119927C002CCBC5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4764D65B13B7990C4CF8E06C /* Pods-sample-apps-ios-workspace-swiftUITests.release.xcconfig */;
+			baseConfigurationReference = 58EF15CC9CD8CE121873CF7A /* Pods-sample-apps-ios-workspace-swiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 72SA8V3WYL;
 				INFOPLIST_FILE = "Sample Apps IOS Workspace SwiftUITests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -731,6 +985,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1B02E9F421199A0700F7BFD8 /* Build configuration list for PBXNativeTarget "bitfall.sample-apps-ios-workspace-swift-watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B02E9F221199A0700F7BFD8 /* Debug */,
+				1B02E9F321199A0700F7BFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B02E9F621199A0700F7BFD8 /* Build configuration list for PBXNativeTarget "bitfall.sample-apps-ios-workspace-swift-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B02E9F021199A0700F7BFD8 /* Debug */,
+				1B02E9F121199A0700F7BFD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1B0456F62119927A002CCBC5 /* Build configuration list for PBXProject "sample-apps-ios-workspace-swift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
