@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '14.7'
+platform :ios, '15.0'
 
 target 'sample-apps-ios-workspace-swift' do
   use_frameworks!
