@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import Sample_Apps_IOS_Workspace_Swift
 
 class Sample_Apps_IOS_Workspace_SwiftTests: XCTestCase {
     
