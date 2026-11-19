@@ -652,15 +652,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Bitrise Bot (VV2J4SV8V4)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				DEVELOPMENT_TEAM = DT2C2FZ7U2;
 				IBSC_MODULE = bitfall_sample_apps_ios_workspace_swift_watch_Extension;
 				INFOPLIST_FILE = "bitfall.sample-apps-ios-workspace-swift-watch/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "bitfall.sample-apps-ios-workspace-swift.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SAMPLE_BUNDLE_ID_BASE).watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "df3ffa02-44e3-4b50-bd8f-f5a7ba018077";
-				PROVISIONING_PROFILE_SPECIFIER = "Sample Apps IOS Workspace Swift Watch_dev";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Bitrise Samples Wildcard Development";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -674,15 +674,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: BITFALL FEJLESZTO KORLATOLT FELELOSSEGU TARSASAG (72SA8V3WYL)";
+				CODE_SIGN_IDENTITY = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				DEVELOPMENT_TEAM = DT2C2FZ7U2;
 				IBSC_MODULE = bitfall_sample_apps_ios_workspace_swift_watch_Extension;
 				INFOPLIST_FILE = "bitfall.sample-apps-ios-workspace-swift-watch/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "bitfall.sample-apps-ios-workspace-swift.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SAMPLE_BUNDLE_ID_BASE).watchkitapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "66f82bb6-cee3-460d-a668-d9d9c9da2464";
-				PROVISIONING_PROFILE_SPECIFIER = "Sample Apps IOS Workspace Swift Watch_app_store";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Bitrise Samples Wildcard App Store";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -696,14 +696,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				DEVELOPMENT_TEAM = DT2C2FZ7U2;
 				INFOPLIST_FILE = "bitfall.sample-apps-ios-workspace-swift-watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "bitfall.sample-apps-ios-workspace-swift.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SAMPLE_BUNDLE_ID_BASE).watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -718,14 +718,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				DEVELOPMENT_TEAM = DT2C2FZ7U2;
 				INFOPLIST_FILE = "bitfall.sample-apps-ios-workspace-swift-watch Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "bitfall.sample-apps-ios-workspace-swift.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SAMPLE_BUNDLE_ID_BASE).watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -767,7 +767,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -786,9 +786,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SAMPLE_BUNDLE_ID_BASE = "io.bitrise.samples.workspace-swift";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -827,7 +828,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -840,8 +841,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				SAMPLE_BUNDLE_ID_BASE = "io.bitrise.samples.workspace-swift";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -854,19 +856,19 @@
 			baseConfigurationReference = AEC638BB404077FF6A0535E2 /* Pods-sample-apps-ios-workspace-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Bitrise Bot (VV2J4SV8V4)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				DEVELOPMENT_TEAM = DT2C2FZ7U2;
 				INFOPLIST_FILE = "Sample Apps IOS Workspace Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "bitfall.sample-apps-ios-workspace-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SAMPLE_BUNDLE_ID_BASE)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c77b8382-5080-4761-9909-635c35384def";
-				PROVISIONING_PROFILE_SPECIFIER = "Sample Apps IOS Workspace Swift_dev";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Bitrise Samples Wildcard Development";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -877,19 +879,19 @@
 			baseConfigurationReference = A202F5BBC83556BFFD59CD34 /* Pods-sample-apps-ios-workspace-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: BITFALL FEJLESZTO KORLATOLT FELELOSSEGU TARSASAG (72SA8V3WYL)";
+				CODE_SIGN_IDENTITY = "Apple Distribution";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				DEVELOPMENT_TEAM = DT2C2FZ7U2;
 				INFOPLIST_FILE = "Sample Apps IOS Workspace Swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "bitfall.sample-apps-ios-workspace-swift";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SAMPLE_BUNDLE_ID_BASE)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "81d87b2c-2ef9-4e5d-8a2e-224769af0375";
-				PROVISIONING_PROFILE_SPECIFIER = "Sample Apps IOS Workspace Swift_app_store";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Bitrise Samples Wildcard App Store";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -902,7 +904,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				DEVELOPMENT_TEAM = DT2C2FZ7U2;
 				INFOPLIST_FILE = "Sample Apps IOS Workspace SwiftTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -910,7 +912,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "bitfall.Sample-Apps-IOS-Workspace-SwiftTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SAMPLE_BUNDLE_ID_BASE).tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -925,7 +927,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				DEVELOPMENT_TEAM = DT2C2FZ7U2;
 				INFOPLIST_FILE = "Sample Apps IOS Workspace SwiftTests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -933,7 +935,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "bitfall.Sample-Apps-IOS-Workspace-SwiftTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SAMPLE_BUNDLE_ID_BASE).tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -947,7 +949,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				DEVELOPMENT_TEAM = DT2C2FZ7U2;
 				INFOPLIST_FILE = "Sample Apps IOS Workspace SwiftUITests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -955,7 +957,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "bitfall.Sample-Apps-IOS-Workspace-SwiftUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SAMPLE_BUNDLE_ID_BASE).uitests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -969,7 +971,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 72SA8V3WYL;
+				DEVELOPMENT_TEAM = DT2C2FZ7U2;
 				INFOPLIST_FILE = "Sample Apps IOS Workspace SwiftUITests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -977,7 +979,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "bitfall.Sample-Apps-IOS-Workspace-SwiftUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(SAMPLE_BUNDLE_ID_BASE).uitests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
